@@ -18,3 +18,27 @@
 section {
   padding-top: 5rem;
 }
+
+@media (min-wdth: 321px) and (max-width: 425px) {
+  section#home {
+    width: 90%;
+    height: 630px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+  }
+
+  .home {
+    top: 20px;
+    right: 10%;
+    display: inline-block;
+  }
+  nav ul {
+    display: none;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 43px;
+    z-index: 99;
+  }
+}
